@@ -1,22 +1,22 @@
-[13Jul2025 21:43:43.573] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[13Jul2025 21:43:43.577] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[13Jul2025 21:43:43.972] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Jul2025 21:43:44.015] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Jul2025 21:43:44.252] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 21:43:44.253] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 21:43:44.254] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 21:43:44.255] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 21:43:44.392] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[13Jul2025 21:43:46.205] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Jul2025 21:43:46.244] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
-[13Jul2025 21:43:46.330] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Jul2025 21:43:46.391] [main/WARN] [mixin/]: Reference map 'mixins.call_of_drowner.refmap.json' for mixins.call_of_drowner.json could not be read. If this is a development environment you can ignore this message
-[13Jul2025 21:43:46.398] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[13Jul2025 21:43:46.415] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[13Jul2025 21:43:46.544] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[13Jul2025 21:43:47.919] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13Jul2025 21:43:54.299] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@157ec23b on thread Thread[modloading-worker-0,5,main]
-[13Jul2025 21:43:54.302] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+[13Jul2025 21:46:52.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Jul2025 21:46:52.006] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[13Jul2025 21:46:52.362] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Jul2025 21:46:52.421] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Jul2025 21:46:52.689] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 21:46:52.690] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 21:46:52.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 21:46:52.692] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 21:46:52.830] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[13Jul2025 21:46:54.984] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jul2025 21:46:55.020] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
+[13Jul2025 21:46:55.127] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Jul2025 21:46:55.186] [main/WARN] [mixin/]: Reference map 'mixins.call_of_drowner.refmap.json' for mixins.call_of_drowner.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 21:46:55.191] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 21:46:55.203] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 21:46:55.327] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 21:46:56.672] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13Jul2025 21:47:02.721] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@97a145b on thread Thread[modloading-worker-0,5,main]
+[13Jul2025 21:47:02.722] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
 java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
@@ -64,20 +64,20 @@ java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.Re
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Jul2025 21:43:54.306] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[13Jul2025 21:43:54.544] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[13Jul2025 21:43:55.290] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[13Jul2025 21:43:55.338] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Jul2025 21:43:55.341] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Jul2025 21:43:55.480] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[13Jul2025 21:43:55.487] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[13Jul2025 21:43:56.033] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@379ddfda has been registered twice for the same name treechop:chop_wood.
-[13Jul2025 21:43:57.736] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[13Jul2025 21:43:58.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[13Jul2025 21:43:58.651] [main/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Starting to register Curios item...
-[13Jul2025 21:43:58.714] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[13Jul2025 21:43:58.722] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
-[13Jul2025 21:43:58.767] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 21:47:02.730] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[13Jul2025 21:47:03.080] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[13Jul2025 21:47:03.769] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[13Jul2025 21:47:03.970] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Jul2025 21:47:03.971] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Jul2025 21:47:03.981] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13Jul2025 21:47:03.981] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13Jul2025 21:47:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@2bc41bcb has been registered twice for the same name treechop:chop_wood.
+[13Jul2025 21:47:06.025] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[13Jul2025 21:47:06.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[13Jul2025 21:47:06.815] [main/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Starting to register Curios item...
+[13Jul2025 21:47:06.885] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[13Jul2025 21:47:06.892] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
+[13Jul2025 21:47:06.916] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -92,10 +92,10 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[13Jul2025 21:43:58.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Jul2025 21:43:59.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[13Jul2025 21:43:59.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[13Jul2025 21:43:59.164] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 21:47:06.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jul2025 21:47:07.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[13Jul2025 21:47:07.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[13Jul2025 21:47:07.136] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -110,628 +110,49 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[13Jul2025 21:44:00.818] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Jul2025 21:44:00.989] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-legendary_monsters (version 1.20.1 -> MISSING)
-Things may not work well.
-[13Jul2025 21:44:01.095] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
-	legendary_monsters:ancient_dripstone_block: 1427
-	legendary_monsters:ancient_dripstone_brick_pillar: 1426
-	legendary_monsters:ancient_dripstone_brick_slab: 1430
-	legendary_monsters:ancient_dripstone_brick_stairs: 1431
-	legendary_monsters:ancient_dripstone_brick_wall: 1429
-	legendary_monsters:ancient_dripstone_bricks: 1424
-	legendary_monsters:ancient_dripstone_tile_slab: 1432
-	legendary_monsters:ancient_dripstone_tile_stairs: 1433
-	legendary_monsters:ancient_dripstone_tile_wall: 1435
-	legendary_monsters:ancient_dripstone_tiles: 1428
-	legendary_monsters:chiseled_ancient_dripstone_bricks: 1425
-	legendary_monsters:chiseled_diorite: 1439
-	legendary_monsters:cloud_block: 1436
-	legendary_monsters:cloud_bricks: 1437
-	legendary_monsters:polished_diorite_pillar: 1438
-	legendary_monsters:skeletosaurus_egg: 1434
-
-[13Jul2025 21:44:01.097] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	legendary_monsters:ambusher: 551
-	legendary_monsters:ancient_guardian: 550
-	legendary_monsters:big_shulker_bullet: 594
-	legendary_monsters:bomb: 567
-	legendary_monsters:bomber: 566
-	legendary_monsters:camera_shake: 562
-	legendary_monsters:chorus_bomb: 547
-	legendary_monsters:chorus_breath: 590
-	legendary_monsters:chorus_energy_bullet: 589
-	legendary_monsters:chorusling: 545
-	legendary_monsters:cloud: 580
-	legendary_monsters:cloud_golem: 553
-	legendary_monsters:dark_cloud_golem: 554
-	legendary_monsters:dimensional_bomb: 595
-	legendary_monsters:dune_sentinel: 565
-	legendary_monsters:electric_burst: 579
-	legendary_monsters:endersent: 540
-	legendary_monsters:energy_beam: 577
-	legendary_monsters:falling_cloud: 548
-	legendary_monsters:falling_cloud_small: 549
-	legendary_monsters:falling_soul_blade: 593
-	legendary_monsters:fire_breath: 575
-	legendary_monsters:fire_pillar: 574
-	legendary_monsters:frostbitten_golem: 543
-	legendary_monsters:golden_halbert: 559
-	legendary_monsters:guard: 561
-	legendary_monsters:haunted_guard: 556
-	legendary_monsters:haunted_knight: 555
-	legendary_monsters:hovering_hurricane: 588
-	legendary_monsters:ice_spike: 569
-	legendary_monsters:knights_armor: 560
-	legendary_monsters:lava_eater: 542
-	legendary_monsters:lightning_beam: 578
-	legendary_monsters:lightning_strike: 581
-	legendary_monsters:lm_falling_block: 568
-	legendary_monsters:mossy_golem: 563
-	legendary_monsters:overgrown_colossus: 539
-	legendary_monsters:player_tornado: 585
-	legendary_monsters:poison_shockwave: 571
-	legendary_monsters:poison_shockwave_spawner: 573
-	legendary_monsters:posessed_paladin: 557
-	legendary_monsters:shockwave: 570
-	legendary_monsters:shockwave_spawner: 572
-	legendary_monsters:shulker_mimic: 544
-	legendary_monsters:skeletosaurus: 538
-	legendary_monsters:skeloraptor: 564
-	legendary_monsters:small_cloud: 586
-	legendary_monsters:small_dimensional_bomb: 596
-	legendary_monsters:soul_arm: 582
-	legendary_monsters:soul_pillar: 591
-	legendary_monsters:soul_strike: 576
-	legendary_monsters:spear: 558
-	legendary_monsters:spiky_bug: 552
-	legendary_monsters:stratling: 587
-	legendary_monsters:thunder_cloud: 584
-	legendary_monsters:tornado: 583
-	legendary_monsters:underground_soul_blade: 592
-	legendary_monsters:warped_fungussus: 541
-	legendary_monsters:withered_abomination: 546
-
-[13Jul2025 21:44:01.100] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	legendary_monsters:air_rune: 2540
-	legendary_monsters:ambusher_spawn_egg: 2516
-	legendary_monsters:ambushers_skin: 2537
-	legendary_monsters:anchor_handle: 2526
-	legendary_monsters:ancient_detonator: 2568
-	legendary_monsters:ancient_dripstone_block: 2586
-	legendary_monsters:ancient_dripstone_brick_pillar: 2585
-	legendary_monsters:ancient_dripstone_brick_slab: 2589
-	legendary_monsters:ancient_dripstone_brick_stairs: 2590
-	legendary_monsters:ancient_dripstone_brick_wall: 2588
-	legendary_monsters:ancient_dripstone_bricks: 2583
-	legendary_monsters:ancient_dripstone_tile_slab: 2591
-	legendary_monsters:ancient_dripstone_tile_stairs: 2592
-	legendary_monsters:ancient_dripstone_tile_wall: 2594
-	legendary_monsters:ancient_dripstone_tiles: 2587
-	legendary_monsters:ancient_guardian_spawn_egg: 2518
-	legendary_monsters:ancient_sandstone_shard: 2567
-	legendary_monsters:ancient_spike: 2525
-	legendary_monsters:atmospheric_boots: 2544
-	legendary_monsters:axe_of_lightning: 2542
-	legendary_monsters:blastproof_helmet: 2571
-	legendary_monsters:blastproof_metal_scrap: 2566
-	legendary_monsters:bomber_spawn_egg: 2572
-	legendary_monsters:chiseled_ancient_dripstone_bricks: 2584
-	legendary_monsters:chiseled_ancient_dripstone_shard: 2564
-	legendary_monsters:chiseled_diorite: 2598
-	legendary_monsters:chorus_blade: 2476
-	legendary_monsters:chorus_bomb_projectile: 2480
-	legendary_monsters:chorus_cannon: 2513
-	legendary_monsters:chorus_crystal: 2481
-	legendary_monsters:chorus_mask: 2498
-	legendary_monsters:chorusling_spawn_egg: 2515
-	legendary_monsters:cloud_block: 2595
-	legendary_monsters:cloud_bricks: 2596
-	legendary_monsters:cloud_golem_spawn_egg: 2519
-	legendary_monsters:cloud_rod: 2580
-	legendary_monsters:corrupted_soul: 2553
-	legendary_monsters:crystal_of_air: 2578
-	legendary_monsters:crystal_of_sandstorm: 2569
-	legendary_monsters:deactivated_guard_summoner: 2559
-	legendary_monsters:deactivated_knight_summoner: 2558
-	legendary_monsters:dinosaur_bone: 2477
-	legendary_monsters:dinosaur_bone_club: 2499
-	legendary_monsters:dinosaur_bone_helmet: 2546
-	legendary_monsters:dinosaur_bone_shield: 2490
-	legendary_monsters:dune_sentinel_spawn_egg: 2573
-	legendary_monsters:ender_hammer: 2493
-	legendary_monsters:endersent_spawn_egg: 2506
-	legendary_monsters:entity_warper: 2486
-	legendary_monsters:explosive_sand: 2570
-	legendary_monsters:eye_of_air: 2529
-	legendary_monsters:eye_of_bones: 2534
-	legendary_monsters:eye_of_chorus: 2532
-	legendary_monsters:eye_of_frost: 2528
-	legendary_monsters:eye_of_ghost: 2536
-	legendary_monsters:eye_of_magma: 2533
-	legendary_monsters:eye_of_many_ribs: 2527
-	legendary_monsters:eye_of_moss: 2530
-	legendary_monsters:eye_of_sandstorm: 2575
-	legendary_monsters:eye_of_shulker: 2531
-	legendary_monsters:eye_of_soul: 2535
-	legendary_monsters:falling_cloud_projectile: 2538
-	legendary_monsters:falling_cloud_small_projectile: 2539
-	legendary_monsters:fiery_boots: 2545
-	legendary_monsters:fiery_jaw: 2501
-	legendary_monsters:frostbitten_golem_spawn_egg: 2510
-	legendary_monsters:frostbitten_shield: 2492
-	legendary_monsters:frozen_rune: 2482
-	legendary_monsters:golden_halbert: 2550
-	legendary_monsters:guard_summoner: 2560
-	legendary_monsters:guide_book: 2563
-	legendary_monsters:haunted_guard_spawn_egg: 2548
-	legendary_monsters:haunted_knight_spawn_egg: 2547
-	legendary_monsters:heart_of_tornado: 2579
-	legendary_monsters:hovering_hurricane_spawn_egg: 2577
-	legendary_monsters:infected_chorus_fruit: 2479
-	legendary_monsters:knight_summoner: 2557
-	legendary_monsters:knights_sword: 2552
-	legendary_monsters:knights_sword_blade_half: 2555
-	legendary_monsters:large_shulker_shell: 2484
-	legendary_monsters:lava_eater_spawn_egg: 2509
-	legendary_monsters:lava_eaters_skin: 2485
-	legendary_monsters:long_stick_half: 2556
-	legendary_monsters:molten_metal_ingot: 2543
-	legendary_monsters:monstrous_anchor: 2521
-	legendary_monsters:mossy_chestplate: 2495
-	legendary_monsters:mossy_golem_spawn_egg: 2505
-	legendary_monsters:mossy_hammer: 2494
-	legendary_monsters:music_disc_advance: 2581
-	legendary_monsters:nature_crystal: 2488
-	legendary_monsters:overgrown_colossus_spawn_egg: 2503
-	legendary_monsters:polished_diorite_pillar: 2597
-	legendary_monsters:posessed_paladin_spawn_egg: 2549
-	legendary_monsters:primal_ice_shard: 2561
-	legendary_monsters:purified_soul: 2554
-	legendary_monsters:reinforced_monstrous_anchor: 2524
-	legendary_monsters:sand_cannon: 2565
-	legendary_monsters:sharp_battle_axe: 2522
-	legendary_monsters:sharp_sai: 2523
-	legendary_monsters:shulker_helmet: 2497
-	legendary_monsters:shulker_mimic_spawn_egg: 2511
-	legendary_monsters:shulker_shield: 2491
-	legendary_monsters:sickle_of_harvest: 2574
-	legendary_monsters:skeletosaurus_egg: 2593
-	legendary_monsters:skeletosaurus_spawn_egg: 2508
-	legendary_monsters:skeloraptor_spawn_egg: 2504
-	legendary_monsters:soul_great_sword: 2551
-	legendary_monsters:spike_bug_spawn_egg: 2517
-	legendary_monsters:spiky_shield: 2520
-	legendary_monsters:stratling_spawn_egg: 2576
-	legendary_monsters:the_great_frost: 2483
-	legendary_monsters:totem_of_moss: 2582
-	legendary_monsters:void_entity_warper: 2487
-	legendary_monsters:void_gem: 2489
-	legendary_monsters:void_sword: 2500
-	legendary_monsters:wand_of_clouds: 2541
-	legendary_monsters:warped_fungussus_spawn_egg: 2507
-	legendary_monsters:warped_mushroom_cap_part: 2502
-	legendary_monsters:withered_abomination_spawn_egg: 2512
-	legendary_monsters:withered_bone: 2478
-	legendary_monsters:withered_horn: 2562
-	legendary_monsters:withered_ribcage: 2496
-	legendary_monsters:withered_scythe: 2514
-
-[13Jul2025 21:44:01.105] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
-	legendary_monsters:bleeding: 133
-	legendary_monsters:broken_armor: 136
-	legendary_monsters:chorus_infection: 131
-	legendary_monsters:curse_of_desert: 139
-	legendary_monsters:fear: 140
-	legendary_monsters:freeze: 132
-	legendary_monsters:gravity_pull: 138
-	legendary_monsters:low_attack_reach: 134
-	legendary_monsters:soul_eater: 130
-	legendary_monsters:soul_rage: 135
-	legendary_monsters:stun: 137
-
-[13Jul2025 21:44:01.106] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
-	legendary_monsters:anchor_hit: 2355
-	legendary_monsters:anchor_slam: 2352
-	legendary_monsters:anchor_swing1: 2353
-	legendary_monsters:anchor_swing2: 2354
-	legendary_monsters:ancient_guardian_death: 2331
-	legendary_monsters:ancient_guardian_hurt: 2330
-	legendary_monsters:ancient_guardian_roar: 2357
-	legendary_monsters:beam_charge: 2359
-	legendary_monsters:beam_go: 2360
-	legendary_monsters:beam_loop: 2362
-	legendary_monsters:cannon_shoot_1: 2344
-	legendary_monsters:cannon_shoot_2: 2345
-	legendary_monsters:cannon_shoot_3: 2346
-	legendary_monsters:chorusling_ambient: 2326
-	legendary_monsters:chorusling_attack: 2327
-	legendary_monsters:chorusling_death: 2324
-	legendary_monsters:chorusling_hurt: 2325
-	legendary_monsters:cloud_golem_ambient: 2363
-	legendary_monsters:cloud_golem_death: 2364
-	legendary_monsters:cloud_golem_hurt: 2361
-	legendary_monsters:cloud_golem_music: 2368
-	legendary_monsters:dimensional_bomb_explode: 2376
-	legendary_monsters:dimensional_bomb_explosion2: 2377
-	legendary_monsters:dimensional_shoot_charge: 2378
-	legendary_monsters:dune_sentinel_death: 2349
-	legendary_monsters:dune_sentinel_hurt: 2348
-	legendary_monsters:endersent_ambient: 2314
-	legendary_monsters:endersent_attack: 2313
-	legendary_monsters:endersent_death: 2315
-	legendary_monsters:endersent_hurt1: 2316
-	legendary_monsters:endersent_hurt2: 2317
-	legendary_monsters:endersent_tp_hit: 2367
-	legendary_monsters:energy_explosion: 2379
-	legendary_monsters:fatal_mortar_attack: 2347
-	legendary_monsters:ground_impact: 2366
-	legendary_monsters:ice_spike_emerge: 2356
-	legendary_monsters:lightning_strike: 2365
-	legendary_monsters:living_armor_hurt: 2332
-	legendary_monsters:mossy_golem_attack: 2339
-	legendary_monsters:mossy_golem_swing: 2338
-	legendary_monsters:overgrown_colossus_death: 2319
-	legendary_monsters:overgrown_colossus_hurt: 2318
-	legendary_monsters:posessed_paladin_attack: 2335
-	legendary_monsters:posessed_paladin_attack2: 2336
-	legendary_monsters:posessed_paladin_attack3: 2337
-	legendary_monsters:posessed_paladin_spin: 2333
-	legendary_monsters:posessed_paladin_swing: 2334
-	legendary_monsters:powerful_sword_impact: 2370
-	legendary_monsters:powerful_sword_impact2: 2371
-	legendary_monsters:pp_swing: 2358
-	legendary_monsters:skeletosaurus_death: 2323
-	legendary_monsters:skeletosaurus_hurt1: 2320
-	legendary_monsters:skeletosaurus_hurt2: 2321
-	legendary_monsters:skeletosaurus_hurt3: 2322
-	legendary_monsters:soul_fly: 2372
-	legendary_monsters:step_sound: 2340
-	legendary_monsters:step_sound_2: 2341
-	legendary_monsters:step_sound_3: 2342
-	legendary_monsters:step_sound_4: 2343
-	legendary_monsters:the_warped_one_hurt: 2375
-	legendary_monsters:the_warped_one_roar: 2369
-	legendary_monsters:the_warped_one_shoot: 2374
-	legendary_monsters:weapon_impact: 2373
-	legendary_monsters:withered_abomination_dash: 2350
-	legendary_monsters:withered_abomination_dash2: 2351
-	legendary_monsters:withered_abomination_death: 2329
-	legendary_monsters:withered_abomination_hurt: 2328
-
-[13Jul2025 21:44:01.109] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 276 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[13Jul2025 21:44:01.109] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
-    legendary_monsters:anchor_hit
-    legendary_monsters:anchor_slam
-    legendary_monsters:anchor_swing1
-    legendary_monsters:anchor_swing2
-    legendary_monsters:ancient_guardian_death
-    legendary_monsters:ancient_guardian_hurt
-    legendary_monsters:ancient_guardian_roar
-    legendary_monsters:beam_charge
-    legendary_monsters:beam_go
-    legendary_monsters:beam_loop
-    legendary_monsters:cannon_shoot_1
-    legendary_monsters:cannon_shoot_2
-    legendary_monsters:cannon_shoot_3
-    legendary_monsters:chorusling_ambient
-    legendary_monsters:chorusling_attack
-    legendary_monsters:chorusling_death
-    legendary_monsters:chorusling_hurt
-    legendary_monsters:cloud_golem_ambient
-    legendary_monsters:cloud_golem_death
-    legendary_monsters:cloud_golem_hurt
-    legendary_monsters:cloud_golem_music
-    legendary_monsters:dimensional_bomb_explode
-    legendary_monsters:dimensional_bomb_explosion2
-    legendary_monsters:dimensional_shoot_charge
-    legendary_monsters:dune_sentinel_death
-    legendary_monsters:dune_sentinel_hurt
-    legendary_monsters:endersent_ambient
-    legendary_monsters:endersent_attack
-    legendary_monsters:endersent_death
-    legendary_monsters:endersent_hurt1
-    legendary_monsters:endersent_hurt2
-    legendary_monsters:endersent_tp_hit
-    legendary_monsters:energy_explosion
-    legendary_monsters:fatal_mortar_attack
-    legendary_monsters:ground_impact
-    legendary_monsters:ice_spike_emerge
-    legendary_monsters:lightning_strike
-    legendary_monsters:living_armor_hurt
-    legendary_monsters:mossy_golem_attack
-    legendary_monsters:mossy_golem_swing
-    legendary_monsters:overgrown_colossus_death
-    legendary_monsters:overgrown_colossus_hurt
-    legendary_monsters:posessed_paladin_attack
-    legendary_monsters:posessed_paladin_attack2
-    legendary_monsters:posessed_paladin_attack3
-    legendary_monsters:posessed_paladin_spin
-    legendary_monsters:posessed_paladin_swing
-    legendary_monsters:powerful_sword_impact
-    legendary_monsters:powerful_sword_impact2
-    legendary_monsters:pp_swing
-    legendary_monsters:skeletosaurus_death
-    legendary_monsters:skeletosaurus_hurt1
-    legendary_monsters:skeletosaurus_hurt2
-    legendary_monsters:skeletosaurus_hurt3
-    legendary_monsters:soul_fly
-    legendary_monsters:step_sound
-    legendary_monsters:step_sound_2
-    legendary_monsters:step_sound_3
-    legendary_monsters:step_sound_4
-    legendary_monsters:the_warped_one_hurt
-    legendary_monsters:the_warped_one_roar
-    legendary_monsters:the_warped_one_shoot
-    legendary_monsters:weapon_impact
-    legendary_monsters:withered_abomination_dash
-    legendary_monsters:withered_abomination_dash2
-    legendary_monsters:withered_abomination_death
-    legendary_monsters:withered_abomination_hurt
-
-Missing minecraft:item:
-    legendary_monsters:air_rune
-    legendary_monsters:ambusher_spawn_egg
-    legendary_monsters:ambushers_skin
-    legendary_monsters:anchor_handle
-    legendary_monsters:ancient_detonator
-    legendary_monsters:ancient_dripstone_block
-    legendary_monsters:ancient_dripstone_brick_pillar
-    legendary_monsters:ancient_dripstone_brick_slab
-    legendary_monsters:ancient_dripstone_brick_stairs
-    legendary_monsters:ancient_dripstone_brick_wall
-    legendary_monsters:ancient_dripstone_bricks
-    legendary_monsters:ancient_dripstone_tile_slab
-    legendary_monsters:ancient_dripstone_tile_stairs
-    legendary_monsters:ancient_dripstone_tile_wall
-    legendary_monsters:ancient_dripstone_tiles
-    legendary_monsters:ancient_guardian_spawn_egg
-    legendary_monsters:ancient_sandstone_shard
-    legendary_monsters:ancient_spike
-    legendary_monsters:atmospheric_boots
-    legendary_monsters:axe_of_lightning
-    legendary_monsters:blastproof_helmet
-    legendary_monsters:blastproof_metal_scrap
-    legendary_monsters:bomber_spawn_egg
-    legendary_monsters:chiseled_ancient_dripstone_bricks
-    legendary_monsters:chiseled_ancient_dripstone_shard
-    legendary_monsters:chiseled_diorite
-    legendary_monsters:chorus_blade
-    legendary_monsters:chorus_bomb_projectile
-    legendary_monsters:chorus_cannon
-    legendary_monsters:chorus_crystal
-    legendary_monsters:chorus_mask
-    legendary_monsters:chorusling_spawn_egg
-    legendary_monsters:cloud_block
-    legendary_monsters:cloud_bricks
-    legendary_monsters:cloud_golem_spawn_egg
-    legendary_monsters:cloud_rod
-    legendary_monsters:corrupted_soul
-    legendary_monsters:crystal_of_air
-    legendary_monsters:crystal_of_sandstorm
-    legendary_monsters:deactivated_guard_summoner
-    legendary_monsters:deactivated_knight_summoner
-    legendary_monsters:dinosaur_bone
-    legendary_monsters:dinosaur_bone_club
-    legendary_monsters:dinosaur_bone_helmet
-    legendary_monsters:dinosaur_bone_shield
-    legendary_monsters:dune_sentinel_spawn_egg
-    legendary_monsters:ender_hammer
-    legendary_monsters:endersent_spawn_egg
-    legendary_monsters:entity_warper
-    legendary_monsters:explosive_sand
-    legendary_monsters:eye_of_air
-    legendary_monsters:eye_of_bones
-    legendary_monsters:eye_of_chorus
-    legendary_monsters:eye_of_frost
-    legendary_monsters:eye_of_ghost
-    legendary_monsters:eye_of_magma
-    legendary_monsters:eye_of_many_ribs
-    legendary_monsters:eye_of_moss
-    legendary_monsters:eye_of_sandstorm
-    legendary_monsters:eye_of_shulker
-    legendary_monsters:eye_of_soul
-    legendary_monsters:falling_cloud_projectile
-    legendary_monsters:falling_cloud_small_projectile
-    legendary_monsters:fiery_boots
-    legendary_monsters:fiery_jaw
-    legendary_monsters:frostbitten_golem_spawn_egg
-    legendary_monsters:frostbitten_shield
-    legendary_monsters:frozen_rune
-    legendary_monsters:golden_halbert
-    legendary_monsters:guard_summoner
-    legendary_monsters:guide_book
-    legendary_monsters:haunted_guard_spawn_egg
-    legendary_monsters:haunted_knight_spawn_egg
-    legendary_monsters:heart_of_tornado
-    legendary_monsters:hovering_hurricane_spawn_egg
-    legendary_monsters:infected_chorus_fruit
-    legendary_monsters:knight_summoner
-    legendary_monsters:knights_sword
-    legendary_monsters:knights_sword_blade_half
-    legendary_monsters:large_shulker_shell
-    legendary_monsters:lava_eater_spawn_egg
-    legendary_monsters:lava_eaters_skin
-    legendary_monsters:long_stick_half
-    legendary_monsters:molten_metal_ingot
-    legendary_monsters:monstrous_anchor
-    legendary_monsters:mossy_chestplate
-    legendary_monsters:mossy_golem_spawn_egg
-    legendary_monsters:mossy_hammer
-    legendary_monsters:music_disc_advance
-    legendary_monsters:nature_crystal
-    legendary_monsters:overgrown_colossus_spawn_egg
-    legendary_monsters:polished_diorite_pillar
-    legendary_monsters:posessed_paladin_spawn_egg
-    legendary_monsters:primal_ice_shard
-    legendary_monsters:purified_soul
-    legendary_monsters:reinforced_monstrous_anchor
-    legendary_monsters:sand_cannon
-    legendary_monsters:sharp_battle_axe
-    legendary_monsters:sharp_sai
-    legendary_monsters:shulker_helmet
-    legendary_monsters:shulker_mimic_spawn_egg
-    legendary_monsters:shulker_shield
-    legendary_monsters:sickle_of_harvest
-    legendary_monsters:skeletosaurus_egg
-    legendary_monsters:skeletosaurus_spawn_egg
-    legendary_monsters:skeloraptor_spawn_egg
-    legendary_monsters:soul_great_sword
-    legendary_monsters:spike_bug_spawn_egg
-    legendary_monsters:spiky_shield
-    legendary_monsters:stratling_spawn_egg
-    legendary_monsters:the_great_frost
-    legendary_monsters:totem_of_moss
-    legendary_monsters:void_entity_warper
-    legendary_monsters:void_gem
-    legendary_monsters:void_sword
-    legendary_monsters:wand_of_clouds
-    legendary_monsters:warped_fungussus_spawn_egg
-    legendary_monsters:warped_mushroom_cap_part
-    legendary_monsters:withered_abomination_spawn_egg
-    legendary_monsters:withered_bone
-    legendary_monsters:withered_horn
-    legendary_monsters:withered_ribcage
-    legendary_monsters:withered_scythe
-
-Missing minecraft:block:
-    legendary_monsters:ancient_dripstone_block
-    legendary_monsters:ancient_dripstone_brick_pillar
-    legendary_monsters:ancient_dripstone_brick_slab
-    legendary_monsters:ancient_dripstone_brick_stairs
-    legendary_monsters:ancient_dripstone_brick_wall
-    legendary_monsters:ancient_dripstone_bricks
-    legendary_monsters:ancient_dripstone_tile_slab
-    legendary_monsters:ancient_dripstone_tile_stairs
-    legendary_monsters:ancient_dripstone_tile_wall
-    legendary_monsters:ancient_dripstone_tiles
-    legendary_monsters:chiseled_ancient_dripstone_bricks
-    legendary_monsters:chiseled_diorite
-    legendary_monsters:cloud_block
-    legendary_monsters:cloud_bricks
-    legendary_monsters:polished_diorite_pillar
-    legendary_monsters:skeletosaurus_egg
-
-Missing minecraft:mob_effect:
-    legendary_monsters:bleeding
-    legendary_monsters:broken_armor
-    legendary_monsters:chorus_infection
-    legendary_monsters:curse_of_desert
-    legendary_monsters:fear
-    legendary_monsters:freeze
-    legendary_monsters:gravity_pull
-    legendary_monsters:low_attack_reach
-    legendary_monsters:soul_eater
-    legendary_monsters:soul_rage
-    legendary_monsters:stun
-
-Missing minecraft:entity_type:
-    legendary_monsters:ambusher
-    legendary_monsters:ancient_guardian
-    legendary_monsters:big_shulker_bullet
-    legendary_monsters:bomb
-    legendary_monsters:bomber
-    legendary_monsters:camera_shake
-    legendary_monsters:chorus_bomb
-    legendary_monsters:chorus_breath
-    legendary_monsters:chorus_energy_bullet
-    legendary_monsters:chorusling
-    legendary_monsters:cloud
-    legendary_monsters:cloud_golem
-    legendary_monsters:dark_cloud_golem
-    legendary_monsters:dimensional_bomb
-    legendary_monsters:dune_sentinel
-    legendary_monsters:electric_burst
-    legendary_monsters:endersent
-    legendary_monsters:energy_beam
-    legendary_monsters:falling_cloud
-    legendary_monsters:falling_cloud_small
-    legendary_monsters:falling_soul_blade
-    legendary_monsters:fire_breath
-    legendary_monsters:fire_pillar
-    legendary_monsters:frostbitten_golem
-    legendary_monsters:golden_halbert
-    legendary_monsters:guard
-    legendary_monsters:haunted_guard
-    legendary_monsters:haunted_knight
-    legendary_monsters:hovering_hurricane
-    legendary_monsters:ice_spike
-    legendary_monsters:knights_armor
-    legendary_monsters:lava_eater
-    legendary_monsters:lightning_beam
-    legendary_monsters:lightning_strike
-    legendary_monsters:lm_falling_block
-    legendary_monsters:mossy_golem
-    legendary_monsters:overgrown_colossus
-    legendary_monsters:player_tornado
-    legendary_monsters:poison_shockwave
-    legendary_monsters:poison_shockwave_spawner
-    legendary_monsters:posessed_paladin
-    legendary_monsters:shockwave
-    legendary_monsters:shockwave_spawner
-    legendary_monsters:shulker_mimic
-    legendary_monsters:skeletosaurus
-    legendary_monsters:skeloraptor
-    legendary_monsters:small_cloud
-    legendary_monsters:small_dimensional_bomb
-    legendary_monsters:soul_arm
-    legendary_monsters:soul_pillar
-    legendary_monsters:soul_strike
-    legendary_monsters:spear
-    legendary_monsters:spiky_bug
-    legendary_monsters:stratling
-    legendary_monsters:thunder_cloud
-    legendary_monsters:tornado
-    legendary_monsters:underground_soul_blade
-    legendary_monsters:warped_fungussus
-    legendary_monsters:withered_abomination
-
-
-[13Jul2025 21:44:01.113] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[13Jul2025 21:44:02.237] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2025 21:44:02.237] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
-[13Jul2025 21:44:02.331] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:legendary_monsters
-[13Jul2025 21:44:04.438] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[13Jul2025 21:44:05.214] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 21:44:05.215] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 21:44:05.215] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 21:44:05.296] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[13Jul2025 21:44:05.439] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1706 advancements
-[13Jul2025 21:44:05.449] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[13Jul2025 21:44:05.455] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[13Jul2025 21:44:05.484] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[13Jul2025 21:44:06.747] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Jul2025 21:44:06.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Jul2025 21:44:06.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Jul2025 21:44:06.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Jul2025 21:44:06.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Jul2025 21:44:06.901] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Jul2025 21:44:06.980] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Jul2025 21:44:06.981] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Jul2025 21:44:06.981] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Jul2025 21:44:06.981] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Jul2025 21:44:07.173] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Jul2025 21:44:12.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Jul2025 21:44:14.944] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:14.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:14.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:14.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:14.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:14.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:15.207] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 21:44:15.707] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[13Jul2025 21:44:16.061] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3854 ms
-[13Jul2025 21:44:16.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.063s)! For help, type "help"
-[13Jul2025 21:44:16.100] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Jul2025 21:44:16.231] [Server thread/WARN] [mixin/]: Error loading class: com/mojang/text2speech/Narrator (java.lang.ClassNotFoundException: com.mojang.text2speech.Narrator)
-[13Jul2025 21:44:16.258] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+[13Jul2025 21:47:08.978] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jul2025 21:47:10.379] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[13Jul2025 21:47:10.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-2.5-el-verdadero/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[13Jul2025 21:47:12.255] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[13Jul2025 21:47:12.934] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 21:47:12.934] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 21:47:12.934] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 21:47:13.007] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[13Jul2025 21:47:13.135] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1706 advancements
+[13Jul2025 21:47:13.146] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[13Jul2025 21:47:13.152] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Jul2025 21:47:13.180] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[13Jul2025 21:47:14.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Jul2025 21:47:14.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Jul2025 21:47:14.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Jul2025 21:47:14.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jul2025 21:47:14.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Jul2025 21:47:14.448] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Jul2025 21:47:14.529] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Jul2025 21:47:14.529] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Jul2025 21:47:14.529] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Jul2025 21:47:14.530] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Jul2025 21:47:14.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Jul2025 21:47:17.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jul2025 21:47:23.178] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.180] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.181] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.181] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.183] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.185] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.186] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.190] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 21:47:23.631] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[13Jul2025 21:47:24.131] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[13Jul2025 21:47:24.392] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6761 ms
+[13Jul2025 21:47:24.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.851s)! For help, type "help"
+[13Jul2025 21:47:24.427] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jul2025 21:47:24.575] [Server thread/WARN] [mixin/]: Error loading class: com/mojang/text2speech/Narrator (java.lang.ClassNotFoundException: com.mojang.text2speech.Narrator)
+[13Jul2025 21:47:24.598] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
 net.minecraft.ReportedException: Exception ticking world
 	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:897) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
@@ -787,17 +208,17 @@ Caused by: org.spongepowered.asm.mixin.throwables.ClassMetadataNotFoundException
 	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	... 5 more
-[13Jul2025 21:44:16.295] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 0d811034-5932-46f1-8753-f3f45dd19eb4
-[13Jul2025 21:44:16.296] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/server-2.5-el-verdadero/servidor_minecraft/./crash-reports/crash-2025-07-13_21.44.16-server.txt
-[13Jul2025 21:44:16.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Jul2025 21:44:16.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Jul2025 21:44:16.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Jul2025 21:44:18.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13Jul2025 21:44:19.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[13Jul2025 21:44:19.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13Jul2025 21:44:19.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13Jul2025 21:44:19.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Jul2025 21:44:19.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[13Jul2025 21:44:19.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Jul2025 21:44:19.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Jul2025 21:44:19.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Jul2025 21:47:24.627] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 63af67c3-00ef-4412-8617-935dedb07aad
+[13Jul2025 21:47:24.628] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/server-2.5-el-verdadero/servidor_minecraft/./crash-reports/crash-2025-07-13_21.47.24-server.txt
+[13Jul2025 21:47:24.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Jul2025 21:47:24.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Jul2025 21:47:24.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Jul2025 21:47:26.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Jul2025 21:47:28.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Jul2025 21:47:28.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Jul2025 21:47:28.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[13Jul2025 21:47:28.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Jul2025 21:47:28.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Jul2025 21:47:28.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Jul2025 21:47:28.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[13Jul2025 21:47:28.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

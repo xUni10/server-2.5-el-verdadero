@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:diamond_backpack|true", "sophisticatedbackpacks:gold_backpack|true", "sophisticatedbackpacks:inception_upgrade|true", "sophisticatedbackpacks:void_upgrade|true", "sophisticatedbackpacks:advanced_refill_upgrade|true", "sophisticatedbackpacks:copper_backpack|true", "sophisticatedbackpacks:crafting_upgrade|true", "sophisticatedbackpacks:advanced_pump_upgrade|true"]
+
